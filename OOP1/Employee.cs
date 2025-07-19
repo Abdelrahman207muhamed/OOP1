@@ -72,6 +72,8 @@ namespace OOP1
 
         #endregion
 
+        #region Apply Encapsulation Properties
+
         //Apply Encapsulation Properties :[Recommended]
         //1.Full Porperty
 
@@ -133,14 +135,17 @@ namespace OOP1
         //    {
         //        return address;
         //    }
-        
+
         //}
 
         //2.Automatic Property : Without Logic 
         public string Address { set; get; }
 
 
-        //3.Special Poreperty[indexer]
+        //3.Special Poreperty[indexer] 
+        #endregion
+
+
 
 
     }
