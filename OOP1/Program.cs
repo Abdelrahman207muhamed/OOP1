@@ -64,6 +64,56 @@
             // 4. Abstraction 
             #endregion
 
+            #region V3
+            //1.Encapsulation :
+            //Class Or Struct 
+            //Separate The Data(Attributes) Definition From its Use 
+            //[Setter Getter Method - Properties]
+
+
+            //Employee
+            //Id,Name,Salary
+
+            //1.End User Access Data Itself
+            //2.No Data Validation
+            //3.No Read Only Filed
+
+            //Appliy Encapsulation 
+            //1.Make All Data (Attributes) Private 
+            //2.Access Data Through:
+            //2.1. Setter Getter Method
+            //2.2. Properties 
+
+
+
+            //Employee E01 = new Employee("Ahmed",-12000);
+            //Console.WriteLine(E01);
+
+            ////ID : Read Only Attributes
+
+            //E01.GetId();
+
+            //E01.id = 1;
+            //E01.name = "Ahmed";
+            //E01.salary = 12000;
+
+            //Console.WriteLine(E01.id);
+            //Console.WriteLine(E01.name);
+            //Console.WriteLine(E01.salary);
+
+            //E01.SetId(1);
+            //E01.SetName("Ahmed");
+            //E01.SetSalary(-12000);
+
+            //Console.WriteLine(E01.GetId());
+            //Console.WriteLine(E01.GetName());
+            //Console.WriteLine(E01.GetSalary());
+
+
+            //Console.WriteLine(E01); 
+            #endregion
+
+
 
         }
     }
