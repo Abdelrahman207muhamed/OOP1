@@ -113,17 +113,52 @@
             //Console.WriteLine(E01); 
             #endregion
 
-            Employee E01 = new Employee();
-           
-            E01.Id = 12;
-            E01.Name = "Ahmed amin";
-            E01.Salary = 12000;
-            E01.Address = "cairo";
+            #region V4
+            //Employee E01 = new Employee();
 
-            Console.WriteLine(E01.Id);
-            Console.WriteLine(E01.Name);
-            Console.WriteLine(E01.Salary);
-            Console.WriteLine(E01.Address);
+            //E01.Id = 12;
+            //E01.Name = "Ahmed amin";
+            //E01.Salary = 12000;
+            //E01.Address = "cairo";
+
+            //Console.WriteLine(E01.Id);
+            //Console.WriteLine(E01.Name);
+            //Console.WriteLine(E01.Salary);
+            //Console.WriteLine(E01.Address);
+
+            #endregion
+
+            #region V5
+            //Indexer : Special Property
+            //         1.Named this
+
+
+
+
+            //PhoneBook : 
+
+            PhoneBook phoneBook = new PhoneBook(3);
+
+            phoneBook.AddPerson("Ahmed", 111, 0);
+            phoneBook.AddPerson("Ali", 222, 1);
+            phoneBook.AddPerson("Omar", 333, 2);
+
+            //Console.WriteLine(phoneBook.GetNumber("Ahmed"));
+
+            //phoneBook.UpdateNumber("Ahmed", 999);
+
+            //Console.WriteLine(phoneBook.GetNumber("Ahmed"));
+
+
+            Console.WriteLine(phoneBook["Ahmed"]); //long
+
+            phoneBook["Ahmed"] = 1111; //long
+
+            Console.WriteLine(phoneBook["Ahmed"]); //long
+
+            Console.WriteLine(phoneBook[111]); 
+            #endregion
+
 
 
         }
