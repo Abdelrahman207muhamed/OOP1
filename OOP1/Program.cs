@@ -47,7 +47,22 @@
             //// Console.WriteLine(P01); //(1,2) 
             #endregion
 
+            #region V2
 
+            // OOP : Object Oriented Programming
+            // Programming Paradim
+            // OOP :The Paradim Use For Build Any Business 
+
+            //Class : Blueprint Of The Object  
+            //Object : Specific Instance From Class
+
+            //4 pillars:- 
+            //================
+            // 1. Encapsulation
+            // 2. Inheritance
+            // 3. Ploymorphism
+            // 4. Abstraction 
+            #endregion
 
 
         }
